@@ -1,4 +1,26 @@
-<input matInput placeholder="Start">
-<input placeholder="End">
-<input placeholder="Start">
-<input placeholder="End">
+<div class="form-wrapper">
+	<div class="drop-off">
+    Drop Off Time
+    <br>
+		<mat-form-field appearance="outline">
+			<input matInput placeholder="Start">
+    </mat-form-field>
+			<mat-form-field appearance="outline">
+				<input matInput placeholder="End">
+    </mat-form-field>
+	</div>
+	<div class="pick-up">
+    Pick Up Time
+    <br>
+		<mat-form-field appearance="outline">
+			<input matInput placeholder="Start">
+    </mat-form-field>
+			<mat-form-field appearance="outline">
+				<input matInput placeholder="End">
+      </mat-form-field>
+	</div>
+	<div class="action-buttons">
+		<button mat-stroked-button color="primary">Cancel</button>
+		<button mat-flat-button color="primary">Save</button>
+	</div>
+</div>
